@@ -32,6 +32,7 @@ gem 'pry-byebug' # デバッグを実施(Ruby 2.0以降で動作する)
 
 gem 'pry-stack_explorer' # スタックをたどれる
 
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
