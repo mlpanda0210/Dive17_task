@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ScaffoldBlog</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= link_to "公開中ブログ", blogs_path %>
+  <%= link_to "下書き中ブログ", blogs_saved_path %>
+  <%= link_to "削除済みブログ", blogs_deleted_path %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
